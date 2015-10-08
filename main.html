@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html" charset="utf-8" http-equiv="Content-Type" />
+	<link rel="stylesheet"  href="main.css"/>
+	<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+	<script src="scripts/jquery-1.11.3.min.js"></script>
+	<script src="scripts/jquery-ui.min.js"></script>
+
+	<title>to do list</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="inner_wrapper clearfix">
+		<div class="main" id="main_body">
+			<h1 class="title">ToDos</h1>
+			<input type="text" placeholder="what needs to be done?" name="input_item" class="input_text" />
+			<div id="checkAll" >
+				<input type="checkbox" name="choose_all"/>
+				<label class="with_cbx">Mark all as complete</label>	
+			</div>
+			<div id="item_lists" >
+				
+			</div>
+		
+		</div>
+		<div id="bottom" class="clearfix">
+			<div class="float_left user_choices">
+<!-- 				<input type="checkbox" value=""/> -->
+				<label class="with_cbx">
+					items selected
+				</label>
+			</div>
+			<input class="delete_items  float_right hide" type="button" value="删除"  />
+		</div>
+
+	</div>
+	
+
+	
+</div>
+
+
+<script type="text/javascript" src="scripts/my_plugin.js"></script>
+</body>
+</html>
